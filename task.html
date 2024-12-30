@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var message = prompt("Enter your message");
+
+      let megDigits = message.length;
+      alert("The number has " + megDigits);
+
+      message = message.split("").reverse();
+    //   alert("Reversed message is: " + message);
+
+
+      for (let i = 0; i < message.length; i++) {
+        if (i % 2 === 0) {
+          alert("Reversed message is: " + message[i]);
+        }
+      }
+    
+
+
+      
+    </script>
+  </body>
+</html>
